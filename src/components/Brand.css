@@ -1,0 +1,39 @@
+﻿.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #111827;
+    flex-shrink: 0;
+}
+
+.brand-logo {
+    display: block;
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    background: transparent;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1.2;
+}
+
+    .brand-text strong {
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .brand-text span {
+        color: #64748b;
+        font-size: 10px;
+        direction: ltr;
+    }
+
+.brand-compact .brand-logo {
+    width: 42px;
+    height: 42px;
+}
